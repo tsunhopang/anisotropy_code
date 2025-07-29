@@ -5,7 +5,7 @@ This repository contains code used for performing Bayesian inference of pressure
 ---
 
 ## 📁 Repository Structure
-
+```
 .
 ├── nfs/ # Pretrained normalizing flow models
 │ ├── astro/ # (If applicable) Astrophysical observations
@@ -29,3 +29,4 @@ This repository contains code used for performing Bayesian inference of pressure
 │ └── utils.py # Shared utility functions
 │
 └── README.md # Project description and instructions
+```
