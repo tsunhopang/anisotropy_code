@@ -1,6 +1,12 @@
-# anisotropy_code
+# Code for measuring pressure anisotropy
 
-This repository contains code used for performing Bayesian inference of pressure anisotropy among neutron star observations. It is organized for clarity and reproducibility, as part of a submission for peer review. The code includes normalizing flow training, hierarchical Bayesian inference, joint Bayesian infrence, evidence estimation, and postprocessing tools.
+This repository contains code used for performing Bayesian inference of pressure anisotropy among neutron star observations (see [paper](https://arxiv.org/abs/2507.13039)) It is organized for clarity and reproducibility, as part of a submission for peer review.
+The code includes
+- normalizing flow training
+- hierarchical Bayesian inference
+- joint Bayesian infrence
+- evidence estimation
+- postprocessing tools
 
 ---
 
@@ -30,3 +36,12 @@ This repository contains code used for performing Bayesian inference of pressure
 │
 └── README.md # Project description and instructions
 ```
+
+## 🔧 Dependencies
+
+This project requires the following Python packages:
+
+- [jax](https://github.com/jax-ml/jax) 
+- [jester](https://github.com/nuclear-multimessenger-astronomy/jester)
+- [harmonic](https://github.com/astro-informatics/harmonic)
+- [flowjax](https://github.com/danielward27/flowjax)
