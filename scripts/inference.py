@@ -215,7 +215,7 @@ def main(args):
     fixed_parameters = {}
     if not args.use_flat_nep_prior:
         print("Running with multi-variate gaussian prior on NEPs")
-        # add the E_sat prior, just too lazy to fix the fixed parameters
+        # add the E_sat prior, more stable with very tight prior on it to mimic fixing it
         E_sat_prior = GaussianPrior(-16.0, 0.005, parameter_names=["E_sat"]) # extremely tight
         prior_list.append(E_sat_prior)
         # this multivariate normal distribution is the result from analyzng the
